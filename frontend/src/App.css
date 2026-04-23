@@ -1,0 +1,19 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.app-section {
+  padding: var(--space-3xl) 0;
+  border-top: 1px solid var(--border);
+  background: var(--bg-elevated);
+}
+
+.app-section:nth-of-type(even) {
+  background: var(--bg-section-alt);
+}

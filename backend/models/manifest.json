@@ -1,0 +1,6 @@
+{
+  "pipeline_version": "5.0.0",
+  "artifact_schema": 1,
+  "n_samples": 600,
+  "random_seed": 42
+}
